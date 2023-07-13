@@ -5,16 +5,12 @@ body {
 
 h1 {
   font-family: "BBBouquet-Regular";
-}
-
-h2 {
-  font-family: "BBBouquet-Regular";
   color: #cc462b;
   text-align: center;
   font-size: 60px;
   padding-bottom: 5px;
   text-decoration: underline;
-  /* margin-bottom: -35px; */
+  margin-bottom: -35px;
 }
 
 #mama {
@@ -72,9 +68,10 @@ a:hover {
   padding: 15px;
 }
 
-.product-catalog {
+.product-images {
   #item {
     max-width: 340px;
     max-height: 450px;
+    object-fit: cover;
   }
 }
