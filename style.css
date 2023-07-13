@@ -1,5 +1,20 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 h1 {
   font-family: "BBBouquet-Regular";
+}
+
+h2 {
+  font-family: "BBBouquet-Regular";
+  color: #cc462b;
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 5px;
+  text-decoration: underline;
+  /* margin-bottom: -35px; */
 }
 
 #mama {
@@ -8,7 +23,7 @@ h1 {
   margin-top: -40px;
 }
 
-div {
+.navigation {
   background-color: #cc462b;
   font-family: "BBBouquet-Regular";
   font-size: 25px;
@@ -55,4 +70,11 @@ a:hover {
   text-decoration: none;
   color: white;
   padding: 15px;
+}
+
+.product-catalog {
+  #item {
+    max-width: 340px;
+    max-height: 450px;
+  }
 }
