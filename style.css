@@ -75,3 +75,18 @@ a:hover {
     object-fit: cover;
   }
 }
+
+#socials img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: -200px;
+  position: absolute;
+}
+
+.tiktok {
+  margin-left: 1300px;
+}
+
+.instagram {
+  margin-left: 1250px;
+}
