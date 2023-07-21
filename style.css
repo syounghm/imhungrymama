@@ -1,6 +1,6 @@
 body {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
   font-size: 60px;
   padding-bottom: 5px;
   text-decoration: underline;
-  margin-bottom: -35px;
+  /* margin-bottom: -35px; */
 }
 
 #mama {
@@ -69,24 +69,39 @@ a:hover {
 }
 
 .product-images {
+  /* display: flex; */
+  align-content: space-evenly;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   #item {
-    max-width: 340px;
-    max-height: 450px;
-    object-fit: cover;
+    border: 1px solid gray;
+    width: 340px;
+    height: 400px;
+    object-fit: contain;
   }
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#socials {
+  display: flex;
+}
 #socials img {
   max-width: 50px;
   max-height: 50px;
-  margin-top: -200px;
-  position: absolute;
+  /* position: absolute; */
 }
 
-.tiktok {
+/* .tiktok {
   margin-left: 1300px;
 }
 
 .instagram {
   margin-left: 1250px;
-}
+} */
